@@ -1,0 +1,7 @@
+<!--pages/cupon/cupon.wxml-->
+<view class='bg'>
+  <image class='bgimage' src='../../../images/luckin1.jpg'></image>
+  <input class='phoneinput' placeholder='请输入手机号' placeholder-style='color:white;font-size:20px' type='digit' auto-focus='true' focus='true' maxlength='11' bindinput='inputhandle'></input>
+  <button class='getcuponbt' style='font-size:20px;' bindtap='getcupon'>免费领取</button>
+  <text class='noticetext' style='font-size:14px'>*新客户领免费券,老客户领5折券</text>
+</view>

@@ -1,0 +1,45 @@
+/* pages/luckin/cart/cartCell/cartCell.wxss */
+.container {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  position: relative;
+}
+.selectBt, .decreaseBt, .increaseBt{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.coffeeInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.coffeeName {
+  font-size: 18px;
+  font: bold;
+}
+.coffeeSugar {
+  font-size: 14px;
+  color: gray;
+}
+.price {
+  font-size: 16px;
+  font: bold;
+}
+.coffeeNum {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+.notice {
+  color: lightblue;
+  font-size: 13px;
+  padding-right: 10px;
+}
+.num {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+

@@ -1,0 +1,54 @@
+/* pages/luckin/order/orderCell.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 12px;
+}
+.orderIdContainer {
+  display: flex;
+  height: 20%;
+  align-items: center;
+}
+.orderType, .orderId, .orderProgress {
+  font-size: 15px;
+  color: gray;
+}
+.orderId {
+  margin-left: 7px;
+}
+.orderProgress {
+  flex: 1;
+  text-align: right;
+}
+.dividerLine {
+  height: 1px;
+  color: lightgray;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.orderInfoContainer {
+  display: flex;
+  position: relative;
+}
+.orderDetail {
+  display: flex;
+  flex-direction: column;
+}
+.orderStore {
+  font-size: 38rpx;
+  font: bold;
+}
+.orderCoffer {
+  font-size: 16px;
+  color: gray;
+}
+.orederPrice {
+  font-size: 17px;
+}
+.orderTime {
+  font-size: 13px;
+  color: lightgray;
+  position: absolute;
+  right: 0;
+}

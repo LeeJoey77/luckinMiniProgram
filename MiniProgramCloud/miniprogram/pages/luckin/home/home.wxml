@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<import src="template.wxml"/>
+
+<!-- 遮挡层 -->
+<!-- catchtouchmove: 移动手势 -->
+<view class="mask" catchtouchmove="preventTouch" wx:if="{{isshow}}"></view>
+<!-- 弹出框 -->
+<view class="popview" wx:if="{{isshow}}">
+  <!-- 取消按钮 -->
+  <view class="cancelbutton" bindtap="dismisspopview">X</view>
+  <!-- 弹出框图片 -->
+  <image class="popimage" src="../../../images/luckin1.jpg" bindtap="togetcouponpage"></image> 
+</view>
+
+<!-- 轮播图 -->
+<view class='bg'>
+  <swiper
+    class="wxswipper"
+    indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+    circular="{{circular}}"
+  >
+    <block wx:for="{{imgArr}}" wx:key="swipperunique">
+      <swiper-item>
+      <image src="{{item}}" class="slide-image" mode="scaleToFill" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <!-- 列表 -->
+  <block wx:for="{{cellArr}}" wx:key="unique">
+    <template is="rowcell" data="{{...item}}"></template>
+  </block>
+</view>
+

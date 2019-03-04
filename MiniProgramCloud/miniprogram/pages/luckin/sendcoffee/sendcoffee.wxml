@@ -1,0 +1,7 @@
+<!--pages/sendcoffee/sendcoffee.wxml-->
+<import src="sendCoffeeTemplate.wxml"/>
+
+<block wx:for="{{itemArr}}" wx:key='id'>
+  <template is='sendCoffeeTemplate' data="{{...item}}"></template>
+</block>
+

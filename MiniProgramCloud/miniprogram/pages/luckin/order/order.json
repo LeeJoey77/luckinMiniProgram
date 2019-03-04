@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "orderCell": "/pages/luckin/order/orderCell/orderCell"
+  },
+  "enablePullDownRefresh": true
+}

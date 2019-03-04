@@ -1,0 +1,43 @@
+/* pages/cupon/cupon.wxss */
+.bg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+}
+.bgimage {
+ width: 100%;
+ height: 100%;
+}
+.phoneinput {
+  border:2px solid white;
+  border-radius: 5px;
+  left:20%;
+  right:20%;
+  height: 40px;
+  bottom: 100px;
+  position: fixed;
+  text-align: center;
+  background: blue;
+  opacity: 0.4;
+  color: white
+}
+.getcuponbt {
+  position: fixed;
+  height: 40px;
+  bottom: 40px;
+  width: 60%;
+  text-align: center;
+  background: white;
+  color: blue;
+}
+.noticetext {
+  position: fixed;
+  height: 20px;
+  bottom: 20px;
+  width: 50%;
+  text-align: center;
+  color: white;
+}

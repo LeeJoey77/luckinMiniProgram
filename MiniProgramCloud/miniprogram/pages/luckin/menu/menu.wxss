@@ -1,0 +1,196 @@
+/* miniprogram/menu/menu.wxss */
+/* Container */
+.menuContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  top:0;
+  left:0;
+}
+/* 顶部 Row Container */
+.topItems {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 13%;
+  align-items: center;
+}
+/* topItems 左侧 Container */
+.branchStore {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+/* 定位图标 */
+.locateImg {
+  width: 15px;
+  height: 15px;
+}
+/* 分店信息 Container */
+.storeInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left:10px;
+}
+/* 分店名 */
+.storeName {
+  font-size: 15px;
+  height: 20px;
+}
+/* 距离 */
+.distance {
+  font-size: 12px;
+  height: 15px;
+  color: gray;
+  margin-top: 5px;
+}
+/* 自提/外卖 */
+.delivery {
+  background: lightblue;
+  width: 100px;
+  height: 45%;
+  font-size:15px;
+  margin-right: 0px;
+}
+/* 轮播图 */
+.menuswipper {
+  height: 20%;
+}
+/* 轮播图片 */
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+/* 菜单联动 Container */
+.selectedCard {
+  display: flex;
+  position: relative;
+  bottom: 0rpx;
+  left: 0;
+  overflow: hidden;
+}
+/* 左侧菜单 Container */
+.menu-container {
+  width: 25%;
+  background: #f6f6f6;
+}
+/* 左侧菜单 scrollView */
+.scroll-view {
+  width: 100%;
+  height: 100%;
+}
+/* 左侧菜单 scrollView-view */
+.scroll-view-ul {
+  width: 100%;
+  height: 100%;
+}
+/* 左侧菜单中的某个 view */
+.scroll-view-item {
+  height: 110rpx;
+  width: 100%;
+  font-size: 24rpx;
+  color: #666;
+  border-left: 8rpx solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.scroll-view-item:after {
+  content: '';
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: #dfdfdf;
+  transform: scaleY(0.5);
+  position: absolute;
+}
+/* 联动菜单 Container */
+.detail-container {
+  position:absolute;
+  left:25%;
+  width:75%;
+  height:100%;
+}
+.market-scroll-list {
+  height: 100%;
+}
+.title {
+  height: 55rpx;
+  background-color: #f6f6f6;
+  border-left: 6rpx solid #dfdfdf;
+  padding-left: 25rpx;
+  line-height: 55rpx;
+}
+.inner {
+  display: flex;
+  padding: 30rpx;
+  position: relative;
+}
+.inner:after {
+  content: '';
+  left: 30rpx;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: #dfdfdf;
+  transform: scaleY(0.5);
+  position: absolute;
+}
+.cover {
+  width: 100rpx;
+  height: 100rpx;
+  border: 1px solid #dfdfdf;
+  background: #f6f6f6;
+  padding: 0rpx;
+}
+.cover-img {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+.info {
+  flex: 1;
+  padding: 0 30rpx;
+  font-size: 0;
+}
+.info-title {
+  color: #333;
+  font-size: 26rpx;
+}
+.info-subtitle {
+  color: #999999;
+  font-size: 20rpx;
+  margin-top: -3rpx;
+}
+.info-desc {
+  color: #666666;
+  font-size: 22rpx;
+  margin-top: 5rpx;
+}
+.num {
+  width: 120rpx;
+  position: relative;
+}
+.text {
+  position: absolute;
+  bottom: 0;
+  font-size: 22rpx;
+  color: #666;
+}
+.overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.active {
+  background: #ffffff;
+  color: #fe3e62;
+  border-left: 8rpx solid #fe3e62;
+}

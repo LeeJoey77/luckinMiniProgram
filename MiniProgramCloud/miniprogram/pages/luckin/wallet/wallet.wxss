@@ -1,0 +1,32 @@
+/* pages/wallet/wallet.wxss */
+.userguide {
+  display: flex;
+  margin-left: 15px;
+  height: 20px;
+  align-items: center;
+}
+.guideicon {
+  width: 15px;
+  height: 15px;
+}
+.guidetext {
+  margin-left: 5px;
+  font-size: 13px;
+}
+.content {
+  position: relative;
+  background: lightblue;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  display:flex;
+  flex-direction:column;
+}
+.noDataImage {
+  width: 30%;
+  margin-top:20%;
+}
+.noDataText {
+  margin-top: 20px;
+  font-size: 17px;
+}

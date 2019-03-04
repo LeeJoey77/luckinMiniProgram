@@ -1,0 +1,11 @@
+<template name='sendCoffeeTemplate'>
+  <navigator class='container' url="{{url}}">
+    <image class='icon' src="{{imageSrc}}">
+    </image>
+    <view class='textContainer'>
+      <view class='title'>{{title}}</view>
+      <view class='subTitle'>{{subTitle}}</view>
+    </view>
+    <view class='btView'>{{btTitle}}</view>
+  </navigator>
+</template>

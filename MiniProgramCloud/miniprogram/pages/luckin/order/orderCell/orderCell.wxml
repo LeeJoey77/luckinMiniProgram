@@ -1,0 +1,17 @@
+<!--pages/luckin/order/orderCell.wxml-->
+<view class='container'>
+  <view class='orderIdContainer'>
+    <text class='orderType'>自提订单</text>
+    <text class='orderId'>335345600544340</text>
+    <text class='orderProgress'>已完成</text>
+  </view>
+  <view class='dividerLine'></view>
+  <view class='orderInfoContainer'>
+    <view class='orderDetail'>
+      <view class='orderStore'>奇利亚酒店店(NO.1439)</view>
+      <view class='orderCoffer'>卡布奇诺等 共一件商品</view>
+      <view class='orederPrice'>¥0</view>
+    </view>
+    <view class='orderTime'>2019-02-23 13:24</view>
+  </view>
+</view>

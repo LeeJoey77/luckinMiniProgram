@@ -1,0 +1,15 @@
+<!--pages/luckin/cart/cartCell/cartCell.wxml-->
+<view class='container'>
+  <image class='selectBt' src='/images/selected.png'></image>
+  <view class='coffeeInfo'>
+    <view class='coffeeName'>加浓美式</view>
+    <view class='coffeeSugar'>大/无奶/无糖/热</view>
+    <view class='price'>¥24</view>
+  </view>
+  <view class='coffeeNum'>
+    <view class='notice'>仅限打包带走</view>
+    <image class='decreaseBt' src='/images/minus.png'></image>
+    <view class='num'> 1 </view>
+    <image class='increaseBt' src='/images/plus.png'></image>
+  </view>
+</view>

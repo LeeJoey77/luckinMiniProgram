@@ -1,0 +1,10 @@
+<!--pages/order/order.wxml-->
+<scroll-view 
+class='bg' 
+scroll-y='true'>
+  <block wx:for="{{dataArr}}" wx:key="id">
+    <navigator url='/pages/luckin/orderInfo/orderInfo'>
+      <orderCell></orderCell>
+    </navigator>
+  </block>
+</scroll-view>

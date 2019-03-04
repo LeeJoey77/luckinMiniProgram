@@ -1,0 +1,16 @@
+<!--miniprogram/mine/mine.wxml-->
+<import src="celltemplate.wxml"/>
+
+<view class="bg">
+  <view class="login" style="flex-direction:row" bindtap="tologinpage">
+    <image class="avatar" src="../../../images/luckinlogo.jpeg" mode="aspectFill"></image>
+    <label class="username">{{username}}</label>
+    <label class="arrow"> > </label>
+  </view>
+  <view class="listandimage">
+    <block wx:for="{{cellitemArr}}" wx:key="cellid">
+      <template is="cell" data="{{...item}}"></template>
+    </block>
+      <image class="affiliateimage" bindtap="toaffiliatepage" src="../../../images/luckin3.png" mode="widthFix"></image>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<!--miniprogram/cart/cart.wxml-->
+<view class='bg'>
+  <scroll-view 
+  class='scrollView' 
+  scroll-y='true'>
+    <block wx:for="{{dataArr}}" wx:key="id">
+        <cartCell></cartCell>
+    </block>
+  </scroll-view>
+  <view class='bottomView'>
+      <view class='text'>合计应付</view>
+      <view class='totalPrice'>¥150</view>
+      <label class='checkBt'>去结算</label>
+  </view>
+</view>
+

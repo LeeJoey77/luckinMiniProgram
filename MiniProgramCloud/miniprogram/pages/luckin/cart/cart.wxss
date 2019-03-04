@@ -1,0 +1,43 @@
+/* miniprogram/cart/cart.wxss */
+.bg {
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+}
+.scrollView {
+  height: 92%;
+}
+.bottomView {
+  display:flex;
+  height:8%;
+  align-items:center;
+  bottom:0;
+  position:fixed;
+  width:100%;
+  background:lavenderblush;
+}
+.text {
+  padding-left: 15px;
+  font-size: 14px;
+  color: gray;
+}
+.totalPrice {
+  padding-left: 10px;
+  font: bold;
+  font-size: 19px;
+}
+.checkBt {
+  background: lightblue;
+  height: 100%;
+  width: 30%;
+  font-size: 19px;
+  position: absolute;
+  right: 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}

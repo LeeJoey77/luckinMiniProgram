@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cartCell": "/pages/luckin/cart/cartCell/cartCell"
+  }
+}

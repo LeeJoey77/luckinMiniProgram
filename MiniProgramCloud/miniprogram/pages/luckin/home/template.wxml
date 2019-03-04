@@ -1,0 +1,12 @@
+<template name="rowcell">
+  <!-- data- 自定义属性 -->
+  <navigator url="{{url}}" open-type="{{type}}">
+    <view class="section" style="flex-direction:row" data-location="{{location}}">
+      <view class="section_title">
+          <text class="bc_title">{{title + '\n'}}</text>
+          <text class="bc_subtitle">{{subtitle}}</text>
+      </view>
+      <icon class="bc_icon" type="success" size="{{iconsize}}"></icon>
+    </view>
+  </navigator>
+</template>

@@ -1,0 +1,7 @@
+<template name="cell">
+  <view class="cell_content" style="flex-direction:row" bindtap="todetailpage">
+    <image class="cell_icon" src="{{cellicon}}"></image>
+    <label class="cell_title">{{celltitle}}</label>
+    <label class="cell_indicator"> > </label>
+  </view>
+</template>

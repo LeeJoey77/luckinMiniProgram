@@ -1,0 +1,14 @@
+<!--pages/wallet/wallet.wxml-->
+
+<view class='userguide' bindlongtap='showuserguide'>
+  <image src='../../../images/warn.png' class='guideicon'></image>
+  <text class='guidetext'>咖啡钱包说明</text>
+</view>
+<view class='content' style='height:{{height}}px' hidden="{{!isEmpty}}">
+  <image class='noDataImage' src='../../../images/warn.png' style='height:{{noDataImageH}}px;width:{{noDataImageW}}px'></image>
+  <view class='noDataText'>您的咖啡钱包有点寂寞</view>
+</view>
+<view class='bottomBt'>
+  <view></view>
+</view>
+

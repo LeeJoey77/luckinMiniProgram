@@ -1,0 +1,19 @@
+<!--miniprogram/pages/luckin/setting/setting.wxml-->
+<view class='avatarContainer'>
+  <view>头像</view>
+  <image class='avatarImage' src="{{avatar}}"></image>
+</view>
+<view class='userNameContainer'>
+  <view>用户名</view>
+  <view>{{userName}}</view>
+</view>
+<view class='genderContainer'>
+  <view>性别</view>
+  <view>{{gender}}</view>
+</view>
+<view class='phoneContainer'>
+  <view>绑定手机</view>
+  <view>15737925193</view>
+</view>
+
+<button class='logOutBt' bindtap='logOut'>退出登录</button>

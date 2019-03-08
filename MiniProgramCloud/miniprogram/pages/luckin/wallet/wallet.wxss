@@ -15,7 +15,6 @@
 }
 .content {
   position: relative;
-  background: lightblue;
   top: 0;
   width: 100%;
   align-items: center;

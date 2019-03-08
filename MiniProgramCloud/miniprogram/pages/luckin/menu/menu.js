@@ -2,11 +2,20 @@
 Page({
   data: {
     imgArr: [
-      '../../../images/luckin1.jpg',
-      '../../../images//luckin2.jpg',
-      '../../../images//luckin3.png'
+      {
+        url: '../../../images/luckin1.jpg',
+        spunique: 'spunique0'
+      },
+      {
+        url: '../../../images/luckin2.jpg',
+        spunique: 'spunique1'
+      }, 
+      {
+        url: '../../../images/luckin3.png',
+        spunique: 'spunique2'
+      },
     ],
-    isshow: true,
+    isshowPopView: false,
     indicatorDots1: true,
     autoplay1: true,
     interval1: 5000,
@@ -256,6 +265,16 @@ Page({
   scrollTo(e) {
     this.setData({
       indexSize: e.target.dataset.index
+    })
+  },
+  orderCoffee: function () {
+    this.setData({
+      isshowPopView: true
+    })
+  },
+  touchToDismiss: function () {
+    this.setData({
+      isshowPopView: false
     })
   },
   onLoad: function () {

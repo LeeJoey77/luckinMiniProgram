@@ -1,0 +1,5 @@
+<!--miniprogram/pages/luckin/logIn/logIn.wxml-->
+<image class='avatar' src="{{imageUrl}}"></image>
+<text class='nameText'>{{nickName}}\n欢迎回来</text>
+<button class='wechatBt' type='primary' bindtap='wechatLogin'>微信一键登录</button>
+<button class='phoneBt' type='default' bindtap='phoneLogin'>手机验证码登录</button>

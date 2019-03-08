@@ -1,0 +1,30 @@
+/* miniprogram/pages/luckin/setting/setting.wxss */
+
+
+.avatarContainer, .userNameContainer, .genderContainer, .phoneContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 45px;
+}
+.avatarImage {
+  width: 25px;
+  height: 25px;
+}
+.userName {
+  
+}
+.gender {
+
+}
+.phone {
+
+}
+.logOutBt {
+  background: lightblue;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

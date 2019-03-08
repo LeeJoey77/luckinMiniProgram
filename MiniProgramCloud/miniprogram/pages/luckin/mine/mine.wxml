@@ -3,7 +3,7 @@
 
 <view class="bg">
   <view class="login" style="flex-direction:row" bindtap="tologinpage">
-    <image class="avatar" src="../../../images/luckinlogo.jpeg" mode="aspectFill"></image>
+    <image class="avatar" src="{{imageUrl}}" mode="aspectFill"></image>
     <label class="username">{{username}}</label>
     <label class="arrow"> > </label>
   </view>

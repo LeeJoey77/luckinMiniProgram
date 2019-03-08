@@ -22,9 +22,9 @@
     duration="{{duration}}"
     circular="{{circular}}"
   >
-    <block wx:for="{{imgArr}}" wx:key="swipperunique">
+    <block wx:for="{{imgArr}}" wx:key="spkey">
       <swiper-item>
-      <image src="{{item}}" class="slide-image" mode="scaleToFill" />
+      <image src="{{item.url}}" class="slide-image" mode="scaleToFill" />
       </swiper-item>
     </block>
   </swiper>

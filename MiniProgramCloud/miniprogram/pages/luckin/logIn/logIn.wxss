@@ -1,0 +1,23 @@
+/* miniprogram/pages/luckin/logIn/logIn.wxss */
+page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar {
+  width: 90px;
+  height: 90px;
+  background: green;
+  margin-top: 10%;
+}
+.nameText {
+  font-size: 16px;
+}
+.wechatBt {
+  margin-top: 100px;
+  width: 80%;
+}
+.phoneBt {
+  margin-top: 20px;
+  width: 80%;
+}

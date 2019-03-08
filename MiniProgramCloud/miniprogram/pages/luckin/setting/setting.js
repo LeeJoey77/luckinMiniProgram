@@ -1,35 +1,36 @@
-// pages/cupon/cupon.js
+// miniprogram/pages/luckin/setting/setting.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    phonenum: ''
+    avatar: '',
+    userName: '',
+    gender: '',
   },
-  inputhandle: function(options) {
-    this.setData({
-      phonenum: options.detail.value
-    })
-  },
-  getcupon: function(options) {
-    if (this.data.phonenum === '') {
-      wx.showToast({
-        mask: true,
-        image: '../../../images/warn.png',
-        title: '请输入手机号',
-      })
-    } else {
-      wx.showToast({
-        title: '领取成功',
-      })
-    }
+  logOut: function (options) {
+    wx.setStorage({
+      key: 'userInfo',
+      data: {},
+    });
+    wx.navigateBack({
+      delta: 1,
+    });
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.setData({
+      userName: options.username,
+      avatar: options.imageUrl,
+    })
+    if (options.gender === 1) {
+      this.setData({
+        gender: '男'
+      })
+    }
   },
 
   /**

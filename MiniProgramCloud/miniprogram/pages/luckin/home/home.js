@@ -4,9 +4,18 @@ const app = getApp()
 Page({
   data: {
     imgArr: [
-      '../../../images/luckin1.jpg',
-      '../../../images//luckin2.jpg',
-      '../../../images//luckin3.png'
+      {
+        url: '../../../images/luckin1.jpg',
+        spkey: 'spkey0'
+      },
+      {
+        url: '../../../images/luckin2.jpg',
+        spkey: 'spkey1'
+      },
+      {
+        url: '../../../images/luckin3.png',
+        spkey: 'spkey2'
+      }
     ],
     isshow: true,
     indicatorDots: true,
